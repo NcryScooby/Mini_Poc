@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(106, 165, 255);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  vertical-align: baseline;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 4vh;
+    background-color: rgb(46, 130, 255);
+}
+
+.enviar{
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 550px;
+  padding-left: 550px;
+}
+
+.enviar #nome{
+ padding: 1vh;
+ border: 2px solid rgb(255, 255, 255);
+ border-radius: 10px;
+}
+
+.enviar #button{
+background-color: white;
+ padding-left: 1vh;
+ padding-right: 1vh;
+ cursor: pointer;
+ border-radius: 10px;
+}
+
+.enviar #button:hover{
+  background-color: rgb(46, 130, 255);
+ }
+
+ .mostrarnome{
+  display: flex;
+  justify-content: center;
+  color: white;  
+ }
